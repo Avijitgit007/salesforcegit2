@@ -1,0 +1,36 @@
+<apex:page >
+  
+    <!--BEGIN Chat Button Code Snippet-->
+    
+    <a id="liveagent_button_online_5732x0000004Ky6" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5732x0000004Ky6')"><!-- Online Chat Content --></a><div id="liveagent_button_offline_5732x0000004Ky6" style="display: none;"><!-- Offline Chat Content --></div><script type="text/javascript">
+    if (!window._laq) { window._laq = []; }
+    window._laq.push(function(){liveagent.showWhenOnline('5732x0000004Ky6', document.getElementById('liveagent_button_online_5732x0000004Ky6'));
+    liveagent.showWhenOffline('5732x0000004Ky6', document.getElementById('liveagent_button_offline_5732x0000004Ky6'));
+    });</script>
+
+    
+    <!--END Chat Button Code Snippet-->
+    
+   
+    
+    <!--BEGIN Chat Deployment Code Snippet-->
+    
+    <script type='text/javascript' src='https://c.la2-c2-hnd.salesforceliveagent.com/content/g/js/48.0/deployment.js'></script>
+    <script type='text/javascript'>
+    
+     <!--BEGIN Button Event Handler-->
+ 
+        liveagent.addButtonEventHandler('5732x0000004Ky6',function (e){
+            if(e == liveagent.BUTTON_EVENT.BUTTON_AVAILABLE){              
+                liveagent.startChatWithWindow('5732x0000004Ky6', window.name);          
+            }       
+        });
+        
+        <!--END Button Event Handler-->
+    
+    liveagent.init('https://d.la2-c2-hnd.salesforceliveagent.com/chat', '5722x0000004Kl2', '00D2x000001dgXU');
+    </script>
+    
+    <!--END Chat Depoyment Code Snippet-->
+    
+</apex:page>
