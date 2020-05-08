@@ -11,7 +11,7 @@ const URL_MESSAGE_PREFIX = 'URL'
 const SUPPORTED_MESSAGE_PREFIX = [DEFAULT_MESSAGE_PREFIX, RICHTEXT_MESSAGE_PREFIX, YOUTUBE_MESSAGE_PREFIX, IMAGE_MESSAGE_PREFIX, URL_MESSAGE_PREFIX];
 const OPENGRAPH_API_KEY = 'YOUR_OPENGRAPH_API_KEY';
 
-/**
+/****** changes
  * Displays a chat message using the inherited api messageContent and is styled based on the inherited api userType and messageContent api objects passed in from BaseChatMessage.
  */
 export default class ChatMessageDefaultUI extends BaseChatMessage {
