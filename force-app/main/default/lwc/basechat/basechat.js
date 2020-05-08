@@ -7,7 +7,7 @@ const CHASITOR_USER_TYPE = 'chasitor';
 const SUPPORTED_USER_TYPES = [AGENT_USER_TYPE, CHASITOR_USER_TYPE];
 
 /**
- * Displays a chat message that replaces links with custom text.
+ * Displays a chat message that replaces links with custom text changes done.
  */
 export default class ShortenedLinksSample extends BaseChatMessage {
     @track messageStyle = '';
